@@ -79,6 +79,23 @@ Conventions are checked, not assumed. Savant `pfx_x` is the catcher's view (posi
 arm-side break is `-pfx_x * 12` for right-handers and `+pfx_x * 12` for left-handers. The loader confirms this per
 season from four-seam medians and stops if a source has the other sign.
 
+## Credit and references
+
+The method is not mine. It comes from Adam Maloof, Joe Haumacher and Kyle Bonicki, who proposed classifying
+pitches as peaks of a movement density landscape, found by persistent homology and bounded by a watershed. This
+repo reimplements their published settings on Statcast, adds two rules for MLB data (an island rule and a
+fastball-speed merge), and adds a supervised naming layer and the tests above.
+
+- Maloof, A., Haumacher, J., and Bonicki, K. (2026). How to classify a pitch. *SABR Tooth Tigers*, March 2026.
+  https://medium.com/sabr-tooth-tigers
+- Edelsbrunner, H., Letscher, D., and Zomorodian, A. (2002). Topological persistence and simplification.
+  *Discrete & Computational Geometry* 28, 511-533.
+- Vincent, L., and Soille, P. (1991). Watersheds in digital spaces: an efficient algorithm based on immersion
+  simulations. *IEEE Transactions on Pattern Analysis and Machine Intelligence* 13(6), 583-598.
+- Scott, D. W. (1992). *Multivariate Density Estimation*. Wiley.
+- Ke, G., et al. (2017). LightGBM: a highly efficient gradient boosting decision tree. *NeurIPS* 30.
+- Geifman, Y., and El-Yaniv, R. (2017). Selective classification for deep neural networks. *NeurIPS* 30.
+
 ## Data
 
 - Baseball Savant Statcast search, https://baseballsavant.mlb.com (column documentation:
