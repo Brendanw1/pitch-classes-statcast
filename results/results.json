@@ -1,0 +1,1754 @@
+{
+ "data": {
+  "source": {
+   "2023": "statcast",
+   "2024": "statcast",
+   "2025": "gamefeed"
+  },
+  "sign_check": {
+   "2023": {
+    "R": -1.0,
+    "L": 1.0
+   },
+   "2024": {
+    "R": -1.0,
+    "L": 1.0
+   },
+   "2025": {
+    "R": -1.0,
+    "L": 1.0
+   }
+  },
+  "medians": {
+   "R_FF": [
+    7.68,
+    16.08,
+    -0.85
+   ],
+   "R_SI": [
+    15.36,
+    7.8,
+    -1.03
+   ],
+   "L_FF": [
+    7.9,
+    16.08,
+    -0.9
+   ],
+   "L_SI": [
+    15.6,
+    8.28,
+    -0.98
+   ]
+  },
+  "rows_by_season": {
+   "2023": 717835,
+   "2024": 709319,
+   "2025": 709762
+  }
+ },
+ "level1": {
+  "peaks": {
+   "FB": [
+    7.5,
+    16.5,
+    -0.7
+   ],
+   "BB": [
+    -3.5,
+    2.5,
+    -8.5
+   ],
+   "CH": [
+    15.5,
+    5.5,
+    -7.9
+   ]
+  },
+  "barcode_frac_of_max": [
+   "inf",
+   "inf",
+   0.1384,
+   0.0757,
+   0.0097,
+   0.0087,
+   0.0043
+  ],
+  "published_rule_peaks": 4,
+  "islands": [
+   {
+    "xyz": [
+     0.5,
+     -12.5,
+     -0.7
+    ],
+    "pct_pitches": 0.076
+   }
+  ],
+  "merged_fastball_speed_peaks": [],
+  "class_share_pct": {
+   "FB": 48.2,
+   "BB": 38.25,
+   "CH": 12.73,
+   "unassigned": 0.82
+  },
+  "n_scored_excl_FC": 1961497,
+  "agreement_pct_fixed_landscape": [
+   97.61,
+   97.2,
+   97.97
+  ],
+  "per_statcast_type_pct": {
+   "CH": {
+    "BB": 1.49,
+    "CH": 94.31,
+    "FB": 3.01,
+    "unassigned": 1.19,
+    "n": 223453
+   },
+   "CU": {
+    "BB": 97.93,
+    "CH": 0.01,
+    "FB": 0.03,
+    "unassigned": 2.03,
+    "n": 138508
+   },
+   "EP": {
+    "BB": 9.04,
+    "CH": 7.2,
+    "FB": 21.7,
+    "unassigned": 62.05,
+    "n": 2124
+   },
+   "FA": {
+    "BB": 6.22,
+    "CH": 15.02,
+    "FB": 56.62,
+    "unassigned": 22.15,
+    "n": 2637
+   },
+   "FC": {
+    "BB": 87.87,
+    "CH": 0.25,
+    "FB": 11.61,
+    "unassigned": 0.27,
+    "n": 168906
+   },
+   "FF": {
+    "BB": 1.43,
+    "CH": 0.03,
+    "FB": 98.47,
+    "unassigned": 0.07,
+    "n": 682429
+   },
+   "FO": {
+    "BB": 18.11,
+    "CH": 75.97,
+    "FB": 0.0,
+    "unassigned": 5.92,
+    "n": 1469
+   },
+   "FS": {
+    "BB": 8.68,
+    "CH": 88.35,
+    "FB": 2.08,
+    "unassigned": 0.89,
+    "n": 61127
+   },
+   "KC": {
+    "BB": 98.3,
+    "CH": 0.3,
+    "FB": 0.0,
+    "unassigned": 1.4,
+    "n": 39256
+   },
+   "KN": {
+    "BB": 39.67,
+    "CH": 26.59,
+    "FB": 0.43,
+    "unassigned": 33.31,
+    "n": 1384
+   },
+   "SI": {
+    "BB": 0.09,
+    "CH": 0.88,
+    "FB": 98.23,
+    "unassigned": 0.8,
+    "n": 333758
+   },
+   "SL": {
+    "BB": 98.83,
+    "CH": 0.44,
+    "FB": 0.11,
+    "unassigned": 0.62,
+    "n": 320532
+   },
+   "ST": {
+    "BB": 98.31,
+    "CH": 0.01,
+    "FB": 0.0,
+    "unassigned": 1.68,
+    "n": 149932
+   },
+   "SV": {
+    "BB": 99.51,
+    "CH": 0.0,
+    "FB": 0.0,
+    "unassigned": 0.49,
+    "n": 10312
+   }
+  },
+  "agreement_pct_landscape_rebuilt": [
+   97.61,
+   97.28,
+   98.02
+  ],
+  "rebuilds": {
+   "n": 100,
+   "share_with_3_classes": 0.95
+  }
+ },
+ "park_test_all_pitchers": {
+  "pitcher_seasons": 2000,
+  "pairs": {
+   "same_game": 191408,
+   "same_park_other_game": 571787,
+   "other_park": 1542015
+  },
+  "mismatch_pct": {
+   "pitch_type": {
+    "same_game": [
+     0.55,
+     0.44,
+     0.67
+    ],
+    "same_park_other_game": [
+     0.86,
+     0.69,
+     1.07
+    ],
+    "other_park": [
+     0.97,
+     0.8,
+     1.18
+    ],
+    "other_park_minus_same_game": [
+     0.42,
+     0.28,
+     0.58
+    ]
+   },
+   "sc_collapsed": {
+    "same_game": [
+     0.04,
+     0.03,
+     0.07
+    ],
+    "same_park_other_game": [
+     0.06,
+     0.04,
+     0.08
+    ],
+    "other_park": [
+     0.08,
+     0.06,
+     0.11
+    ],
+    "other_park_minus_same_game": [
+     0.03,
+     0.01,
+     0.07
+    ]
+   },
+   "l1": {
+    "same_game": [
+     0.56,
+     0.46,
+     0.67
+    ],
+    "same_park_other_game": [
+     0.49,
+     0.37,
+     0.62
+    ],
+    "other_park": [
+     0.52,
+     0.39,
+     0.69
+    ],
+    "other_park_minus_same_game": [
+     -0.04,
+     -0.14,
+     0.08
+    ]
+   }
+  }
+ },
+ "tagger_setup": {
+  "train_pitchers": 818,
+  "train_pitches": 1068498,
+  "test_pitchers_2025": 237,
+  "test_pitches_2025": 181033,
+  "landscape_peaks": {
+   "FB": [
+    8.5,
+    16.5,
+    -0.7
+   ],
+   "FB_merged": [
+    15.5,
+    9.5,
+    -0.7
+   ],
+   "BB": [
+    -3.5,
+    3.5,
+    -8.5
+   ],
+   "CH": [
+    15.5,
+    5.5,
+    -8.5
+   ]
+  },
+  "landscape_islands": [
+   {
+    "xyz": [
+     0.5,
+     -11.5,
+     -0.7
+    ],
+    "pct_pitches": 0.101
+   }
+  ],
+  "barcode": [
+   "inf",
+   "inf",
+   0.1281,
+   0.0723,
+   0.0516,
+   0.0077,
+   0.006,
+   0.0043
+  ],
+  "class_share_train_pct": {
+   "FB": 48.86,
+   "BB": 37.5,
+   "CH": 12.83,
+   "unassigned": 0.81
+  }
+ },
+ "level2": {
+  "train_groups": 4968,
+  "test_groups": 2685,
+  "pitch_weighted_group_purity_test_pct": 95.01,
+  "groups_per_pitcher_class_test": 1.42
+ },
+ "tagger_2025_holdout": {
+  "A1": {
+   "accuracy_pct": [
+    85.16,
+    83.18,
+    86.92
+   ],
+   "macro_f1": [
+    0.7994,
+    0.7707,
+    0.8232
+   ],
+   "recall_pct": {
+    "FF": 96.16,
+    "SI": 91.93,
+    "FC": 69.26,
+    "SL": 68.67,
+    "ST": 74.51,
+    "CU": 84.74,
+    "CH": 90.01,
+    "FS": 63.78
+   },
+   "precision_pct": {
+    "FF": 94.29,
+    "SI": 95.08,
+    "FC": 57.97,
+    "SL": 73.3,
+    "ST": 76.47,
+    "CU": 87.03,
+    "CH": 88.13,
+    "FS": 69.3
+   },
+   "row_pct": {
+    "FF": {
+     "FF": 96.16,
+     "SI": 1.76,
+     "FC": 2.06,
+     "SL": 0.01,
+     "ST": 0.0,
+     "CU": 0.0,
+     "CH": 0.01,
+     "FS": 0.0,
+     "none": 0.0
+    },
+    "SI": {
+     "FF": 6.97,
+     "SI": 91.93,
+     "FC": 0.12,
+     "SL": 0.01,
+     "ST": 0.0,
+     "CU": 0.0,
+     "CH": 0.9,
+     "FS": 0.06,
+     "none": 0.0
+    },
+    "FC": {
+     "FF": 12.48,
+     "SI": 0.07,
+     "FC": 69.26,
+     "SL": 18.09,
+     "ST": 0.02,
+     "CU": 0.0,
+     "CH": 0.07,
+     "FS": 0.0,
+     "none": 0.0
+    },
+    "SL": {
+     "FF": 0.06,
+     "SI": 0.0,
+     "FC": 16.82,
+     "SL": 68.67,
+     "ST": 9.09,
+     "CU": 5.06,
+     "CH": 0.17,
+     "FS": 0.12,
+     "none": 0.0
+    },
+    "ST": {
+     "FF": 0.0,
+     "SI": 0.0,
+     "FC": 0.16,
+     "SL": 19.38,
+     "ST": 74.51,
+     "CU": 5.95,
+     "CH": 0.0,
+     "FS": 0.0,
+     "none": 0.0
+    },
+    "CU": {
+     "FF": 0.01,
+     "SI": 0.0,
+     "FC": 0.01,
+     "SL": 12.34,
+     "ST": 2.91,
+     "CU": 84.74,
+     "CH": 0.0,
+     "FS": 0.0,
+     "none": 0.0
+    },
+    "CH": {
+     "FF": 0.07,
+     "SI": 1.36,
+     "FC": 0.31,
+     "SL": 0.3,
+     "ST": 0.01,
+     "CU": 0.0,
+     "CH": 90.01,
+     "FS": 7.95,
+     "none": 0.0
+    },
+    "FS": {
+     "FF": 0.04,
+     "SI": 0.0,
+     "FC": 0.0,
+     "SL": 0.29,
+     "ST": 0.04,
+     "CU": 0.06,
+     "CH": 35.8,
+     "FS": 63.78,
+     "none": 0.0
+    }
+   }
+  },
+  "A2": {
+   "accuracy_pct": [
+    86.84,
+    84.4,
+    89.25
+   ],
+   "macro_f1": [
+    0.8265,
+    0.7883,
+    0.8586
+   ],
+   "recall_pct": {
+    "FF": 97.63,
+    "SI": 89.83,
+    "FC": 71.89,
+    "SL": 75.73,
+    "ST": 80.69,
+    "CU": 83.7,
+    "CH": 87.46,
+    "FS": 68.63
+   },
+   "precision_pct": {
+    "FF": 94.5,
+    "SI": 94.91,
+    "FC": 63.18,
+    "SL": 77.78,
+    "ST": 82.29,
+    "CU": 91.82,
+    "CH": 92.12,
+    "FS": 71.6
+   },
+   "row_pct": {
+    "FF": {
+     "FF": 97.63,
+     "SI": 1.59,
+     "FC": 0.53,
+     "SL": 0.13,
+     "ST": 0.03,
+     "CU": 0.0,
+     "CH": 0.02,
+     "FS": 0.0,
+     "none": 0.07
+    },
+    "SI": {
+     "FF": 8.55,
+     "SI": 89.83,
+     "FC": 0.14,
+     "SL": 0.0,
+     "ST": 0.0,
+     "CU": 0.0,
+     "CH": 0.96,
+     "FS": 0.35,
+     "none": 0.17
+    },
+    "FC": {
+     "FF": 7.73,
+     "SI": 0.21,
+     "FC": 71.89,
+     "SL": 19.01,
+     "ST": 0.48,
+     "CU": 0.07,
+     "CH": 0.2,
+     "FS": 0.17,
+     "none": 0.24
+    },
+    "SL": {
+     "FF": 0.12,
+     "SI": 0.01,
+     "FC": 15.68,
+     "SL": 75.73,
+     "ST": 4.39,
+     "CU": 3.46,
+     "CH": 0.09,
+     "FS": 0.08,
+     "none": 0.44
+    },
+    "ST": {
+     "FF": 0.07,
+     "SI": 0.0,
+     "FC": 1.18,
+     "SL": 14.46,
+     "ST": 80.69,
+     "CU": 2.46,
+     "CH": 0.0,
+     "FS": 0.0,
+     "none": 1.13
+    },
+    "CU": {
+     "FF": 0.0,
+     "SI": 0.0,
+     "FC": 0.2,
+     "SL": 7.24,
+     "ST": 5.65,
+     "CU": 83.7,
+     "CH": 0.02,
+     "FS": 0.01,
+     "none": 3.19
+    },
+    "CH": {
+     "FF": 0.19,
+     "SI": 1.91,
+     "FC": 0.21,
+     "SL": 0.33,
+     "ST": 0.1,
+     "CU": 0.0,
+     "CH": 87.46,
+     "FS": 7.13,
+     "none": 2.67
+    },
+    "FS": {
+     "FF": 0.29,
+     "SI": 0.0,
+     "FC": 1.18,
+     "SL": 8.35,
+     "ST": 0.1,
+     "CU": 0.02,
+     "CH": 19.56,
+     "FS": 68.63,
+     "none": 1.87
+    }
+   }
+  },
+  "A2_minus_A1_accuracy_pt": [
+   1.68,
+   -0.1,
+   3.57
+  ],
+  "A2_minus_A1_macro_f1": [
+   0.0271,
+   -0.0034,
+   0.0599
+  ],
+  "group_majority_ceiling_accuracy_pct": [
+   94.55,
+   93.5,
+   95.54
+  ],
+  "n_test_pitches": 180343,
+  "n_test_pitchers": 223
+ },
+ "coverage": {
+  "A1": [
+   {
+    "coverage": 1.0,
+    "threshold": 0.2996931361555886,
+    "accuracy_pct": [
+     85.16,
+     83.16,
+     87.04
+    ]
+   },
+   {
+    "coverage": 0.95,
+    "threshold": 0.5859417024519536,
+    "accuracy_pct": [
+     87.01,
+     85.07,
+     88.82
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 9.0,
+     "SI": 6.0,
+     "FC": 10.5,
+     "SL": 35.8,
+     "ST": 20.2,
+     "CU": 9.7,
+     "CH": 5.6,
+     "FS": 3.3
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 1.4,
+     "SI": 2.0,
+     "FC": 7.9,
+     "SL": 11.5,
+     "ST": 13.5,
+     "CU": 5.0,
+     "CH": 2.8,
+     "FS": 5.6
+    }
+   },
+   {
+    "coverage": 0.9,
+    "threshold": 0.68408519268149,
+    "accuracy_pct": [
+     88.77,
+     86.97,
+     90.45
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 9.7,
+     "SI": 6.6,
+     "FC": 11.3,
+     "SL": 35.3,
+     "ST": 19.3,
+     "CU": 8.4,
+     "CH": 5.8,
+     "FS": 3.6
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 3.0,
+     "SI": 4.4,
+     "FC": 16.9,
+     "SL": 22.6,
+     "ST": 26.0,
+     "CU": 8.6,
+     "CH": 5.8,
+     "FS": 12.5
+    }
+   },
+   {
+    "coverage": 0.8,
+    "threshold": 0.8340192925887435,
+    "accuracy_pct": [
+     91.78,
+     90.2,
+     93.27
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 10.1,
+     "SI": 6.8,
+     "FC": 12.1,
+     "SL": 34.5,
+     "ST": 18.6,
+     "CU": 7.9,
+     "CH": 6.1,
+     "FS": 3.9
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 6.2,
+     "SI": 9.0,
+     "FC": 36.1,
+     "SL": 44.3,
+     "ST": 50.1,
+     "CU": 16.2,
+     "CH": 12.2,
+     "FS": 26.6
+    }
+   },
+   {
+    "coverage": 0.7,
+    "threshold": 0.9195087519194042,
+    "accuracy_pct": [
+     94.15,
+     92.78,
+     95.42
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 11.3,
+     "SI": 7.4,
+     "FC": 12.3,
+     "SL": 33.3,
+     "ST": 17.5,
+     "CU": 7.9,
+     "CH": 6.5,
+     "FS": 3.9
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 10.4,
+     "SI": 14.7,
+     "FC": 55.2,
+     "SL": 64.0,
+     "ST": 70.5,
+     "CU": 24.1,
+     "CH": 19.5,
+     "FS": 40.7
+    }
+   },
+   {
+    "coverage": 0.6,
+    "threshold": 0.9625896760372965,
+    "accuracy_pct": [
+     96.1,
+     94.82,
+     97.13
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 13.2,
+     "SI": 8.1,
+     "FC": 12.2,
+     "SL": 31.7,
+     "ST": 15.9,
+     "CU": 7.8,
+     "CH": 7.2,
+     "FS": 3.9
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 16.2,
+     "SI": 21.5,
+     "FC": 73.1,
+     "SL": 81.3,
+     "ST": 85.4,
+     "CU": 32.0,
+     "CH": 28.7,
+     "FS": 54.1
+    }
+   },
+   {
+    "coverage": 0.5,
+    "threshold": 0.9835615512013688,
+    "accuracy_pct": [
+     97.61,
+     96.31,
+     98.47
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 16.3,
+     "SI": 9.2,
+     "FC": 11.7,
+     "SL": 29.1,
+     "ST": 14.1,
+     "CU": 7.8,
+     "CH": 8.0,
+     "FS": 3.9
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 25.0,
+     "SI": 30.5,
+     "FC": 87.2,
+     "SL": 93.2,
+     "ST": 94.7,
+     "CU": 39.9,
+     "CH": 40.3,
+     "FS": 67.3
+    }
+   }
+  ],
+  "A2": [
+   {
+    "coverage": 1.0,
+    "threshold": -Infinity,
+    "accuracy_pct": [
+     86.84,
+     84.37,
+     89.16
+    ]
+   },
+   {
+    "coverage": 0.95,
+    "threshold": 0.7559659787690769,
+    "accuracy_pct": [
+     89.09,
+     86.65,
+     91.26
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 10.2,
+     "SI": 1.9,
+     "FC": 22.9,
+     "SL": 18.0,
+     "ST": 13.2,
+     "CU": 15.9,
+     "CH": 12.9,
+     "FS": 4.9
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 1.6,
+     "SI": 0.6,
+     "FC": 17.1,
+     "SL": 5.8,
+     "ST": 8.9,
+     "CU": 8.2,
+     "CH": 6.5,
+     "FS": 8.4
+    }
+   },
+   {
+    "coverage": 0.9,
+    "threshold": 0.9241355970157427,
+    "accuracy_pct": [
+     91.15,
+     88.96,
+     93.34
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 12.5,
+     "SI": 6.6,
+     "FC": 16.3,
+     "SL": 25.6,
+     "ST": 10.8,
+     "CU": 11.0,
+     "CH": 13.4,
+     "FS": 3.9
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 3.8,
+     "SI": 4.4,
+     "FC": 24.3,
+     "SL": 16.4,
+     "ST": 14.5,
+     "CU": 11.2,
+     "CH": 13.5,
+     "FS": 13.4
+    }
+   },
+   {
+    "coverage": 0.8,
+    "threshold": 0.9939297731016613,
+    "accuracy_pct": [
+     93.54,
+     91.63,
+     95.34
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 7.6,
+     "SI": 4.6,
+     "FC": 14.0,
+     "SL": 37.5,
+     "ST": 15.6,
+     "CU": 7.4,
+     "CH": 7.6,
+     "FS": 5.8
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 4.7,
+     "SI": 6.2,
+     "FC": 41.7,
+     "SL": 48.1,
+     "ST": 41.9,
+     "CU": 15.2,
+     "CH": 15.3,
+     "FS": 39.7
+    }
+   },
+   {
+    "coverage": 0.7,
+    "threshold": 0.9995804248847673,
+    "accuracy_pct": [
+     94.62,
+     92.65,
+     96.33
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 9.2,
+     "SI": 5.8,
+     "FC": 13.0,
+     "SL": 32.2,
+     "ST": 18.1,
+     "CU": 7.4,
+     "CH": 9.6,
+     "FS": 4.8
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 8.5,
+     "SI": 11.5,
+     "FC": 58.4,
+     "SL": 62.0,
+     "ST": 73.0,
+     "CU": 22.6,
+     "CH": 28.8,
+     "FS": 49.5
+    }
+   },
+   {
+    "coverage": 0.6,
+    "threshold": 0.999960328778383,
+    "accuracy_pct": [
+     96.14,
+     94.91,
+     97.22
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 9.6,
+     "SI": 6.3,
+     "FC": 12.8,
+     "SL": 29.4,
+     "ST": 15.7,
+     "CU": 8.5,
+     "CH": 11.0,
+     "FS": 6.7
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 11.8,
+     "SI": 16.9,
+     "FC": 76.7,
+     "SL": 75.4,
+     "ST": 84.2,
+     "CU": 34.7,
+     "CH": 44.3,
+     "FS": 92.0
+    }
+   },
+   {
+    "coverage": 0.5,
+    "threshold": 0.9999943464826064,
+    "accuracy_pct": [
+     97.09,
+     96.08,
+     97.96
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 12.8,
+     "SI": 8.2,
+     "FC": 12.1,
+     "SL": 28.1,
+     "ST": 13.4,
+     "CU": 9.8,
+     "CH": 10.2,
+     "FS": 5.5
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 19.6,
+     "SI": 27.2,
+     "FC": 90.8,
+     "SL": 90.1,
+     "ST": 90.0,
+     "CU": 50.0,
+     "CH": 50.9,
+     "FS": 94.2
+    }
+   }
+  ],
+  "A2_by_A1_agreement": [
+   {
+    "coverage": 1.0,
+    "threshold": -Infinity,
+    "accuracy_pct": [
+     86.84,
+     84.37,
+     89.16
+    ]
+   },
+   {
+    "coverage": 0.95,
+    "threshold": 0.35627833359131245,
+    "accuracy_pct": [
+     88.18,
+     85.62,
+     90.5
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 3.7,
+     "SI": 1.1,
+     "FC": 9.0,
+     "SL": 43.2,
+     "ST": 6.7,
+     "CU": 16.8,
+     "CH": 7.6,
+     "FS": 11.9
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 0.6,
+     "SI": 0.4,
+     "FC": 6.8,
+     "SL": 13.9,
+     "ST": 4.5,
+     "CU": 8.6,
+     "CH": 3.8,
+     "FS": 20.6
+    }
+   },
+   {
+    "coverage": 0.9,
+    "threshold": 0.49214126380503814,
+    "accuracy_pct": [
+     90.69,
+     88.39,
+     92.67
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 4.8,
+     "SI": 1.3,
+     "FC": 16.5,
+     "SL": 35.1,
+     "ST": 17.4,
+     "CU": 11.3,
+     "CH": 7.0,
+     "FS": 6.6
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 1.5,
+     "SI": 0.9,
+     "FC": 24.7,
+     "SL": 22.5,
+     "ST": 23.4,
+     "CU": 11.6,
+     "CH": 7.0,
+     "FS": 22.6
+    }
+   },
+   {
+    "coverage": 0.8,
+    "threshold": 0.6757832505417286,
+    "accuracy_pct": [
+     93.27,
+     91.12,
+     95.05
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 8.1,
+     "SI": 4.2,
+     "FC": 13.6,
+     "SL": 36.8,
+     "ST": 17.1,
+     "CU": 10.2,
+     "CH": 4.7,
+     "FS": 5.3
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 5.0,
+     "SI": 5.6,
+     "FC": 40.6,
+     "SL": 47.2,
+     "ST": 45.9,
+     "CU": 20.9,
+     "CH": 9.3,
+     "FS": 36.6
+    }
+   },
+   {
+    "coverage": 0.7,
+    "threshold": 0.8005758777625681,
+    "accuracy_pct": [
+     94.88,
+     93.14,
+     96.45
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 10.0,
+     "SI": 5.0,
+     "FC": 12.2,
+     "SL": 35.2,
+     "ST": 18.3,
+     "CU": 8.5,
+     "CH": 5.5,
+     "FS": 5.4
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 9.2,
+     "SI": 9.9,
+     "FC": 54.7,
+     "SL": 67.7,
+     "ST": 73.6,
+     "CU": 26.1,
+     "CH": 16.5,
+     "FS": 56.2
+    }
+   },
+   {
+    "coverage": 0.6,
+    "threshold": 0.8586035597841973,
+    "accuracy_pct": [
+     97.29,
+     96.18,
+     98.17
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 10.3,
+     "SI": 7.0,
+     "FC": 14.3,
+     "SL": 33.7,
+     "ST": 15.3,
+     "CU": 7.9,
+     "CH": 6.0,
+     "FS": 5.5
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 12.6,
+     "SI": 18.6,
+     "FC": 85.6,
+     "SL": 86.5,
+     "ST": 82.2,
+     "CU": 32.3,
+     "CH": 24.0,
+     "FS": 76.4
+    }
+   },
+   {
+    "coverage": 0.5,
+    "threshold": 0.9149660421736155,
+    "accuracy_pct": [
+     97.6,
+     96.44,
+     98.45
+    ],
+    "abstained_share_by_type_pct": {
+     "FF": 11.7,
+     "SI": 11.6,
+     "FC": 12.1,
+     "SL": 28.5,
+     "ST": 14.3,
+     "CU": 9.3,
+     "CH": 7.0,
+     "FS": 5.4
+    },
+    "abstain_rate_by_type_pct": {
+     "FF": 18.0,
+     "SI": 38.7,
+     "FC": 90.7,
+     "SL": 91.3,
+     "ST": 96.4,
+     "CU": 47.8,
+     "CH": 34.9,
+     "FS": 92.5
+    }
+   }
+  ]
+ },
+ "park_test_holdout_2025": {
+  "pitcher_seasons": 206,
+  "pairs": {
+   "same_game": 17310,
+   "same_park_other_game": 53651,
+   "other_park": 151669
+  },
+  "mismatch_pct": {
+   "type_sc": {
+    "same_game": [
+     0.47,
+     0.22,
+     0.77
+    ],
+    "same_park_other_game": [
+     0.51,
+     0.29,
+     0.78
+    ],
+    "other_park": [
+     0.73,
+     0.45,
+     1.1
+    ],
+    "other_park_minus_same_game": [
+     0.26,
+     0.11,
+     0.44
+    ]
+   },
+   "A1": {
+    "same_game": [
+     3.52,
+     2.91,
+     4.14
+    ],
+    "same_park_other_game": [
+     4.2,
+     3.39,
+     5.16
+    ],
+    "other_park": [
+     4.93,
+     4.04,
+     6.06
+    ],
+    "other_park_minus_same_game": [
+     1.41,
+     0.7,
+     2.25
+    ]
+   },
+   "A2": {
+    "same_game": [
+     0.24,
+     0.15,
+     0.35
+    ],
+    "same_park_other_game": [
+     0.18,
+     0.11,
+     0.27
+    ],
+    "other_park": [
+     0.16,
+     0.1,
+     0.24
+    ],
+    "other_park_minus_same_game": [
+     -0.08,
+     -0.16,
+     -0.01
+    ]
+   },
+   "l1_tr": {
+    "same_game": [
+     0.44,
+     0.26,
+     0.66
+    ],
+    "same_park_other_game": [
+     0.36,
+     0.19,
+     0.62
+    ],
+    "other_park": [
+     0.52,
+     0.2,
+     1.0
+    ],
+    "other_park_minus_same_game": [
+     0.07,
+     -0.2,
+     0.49
+    ]
+   }
+  }
+ },
+ "stability_holdout": {
+  "2023_2024": {
+   "pitchers": 162,
+   "pairs": 275105,
+   "cross_season_pair_mismatch_pct": {
+    "type_sc": [
+     1.32,
+     0.88,
+     1.85
+    ],
+    "A1": [
+     7.2,
+     5.68,
+     8.96
+    ],
+    "A2": [
+     8.07,
+     4.35,
+     13.19
+    ],
+    "l1_tr": [
+     0.76,
+     0.29,
+     1.42
+    ]
+   },
+   "flip_pairs_pct": {
+    "type_sc": {
+     "FF/SI": 61.8,
+     "SL/ST": 14.2,
+     "FC/SL": 9.7,
+     "CH/SI": 3.7,
+     "FC/FF": 3.2,
+     "CU/SL": 2.6
+    },
+    "A1": {
+     "FC/SL": 33.9,
+     "CU/SL": 25.1,
+     "FF/SI": 17.8,
+     "FC/FF": 7.4,
+     "SL/ST": 5.7,
+     "CH/FS": 3.8
+    },
+    "A2": {
+     "FF/SI": 34.5,
+     "CU/SL": 24.7,
+     "FC/SL": 20.5,
+     "SL/ST": 11.6,
+     "CH/FS": 2.5,
+     "FC/FF": 1.8
+    },
+    "l1_tr": {
+     "BB/FB": 79.5,
+     "BB/unassigned": 8.7,
+     "CH/FB": 5.1,
+     "BB/CH": 3.7,
+     "CH/unassigned": 3.1,
+     "FB/unassigned": 0.0
+    }
+   },
+   "share_of_flips_from_top_10pct_pitchers": {
+    "type_sc": 63.7,
+    "A1": 47.5,
+    "A2": 83.3,
+    "l1_tr": 90.0
+   },
+   "A2_minus_statcast_pt": [
+    6.75,
+    3.03,
+    11.79
+   ],
+   "arsenal_identical_pct": {
+    "type_sc": 40.1,
+    "A1": 26.5,
+    "A2": 29.6,
+    "l1_tr": 74.7
+   },
+   "same_majority_name_per_statcast_type_pct": {
+    "A1": 93.0,
+    "A2": 87.3,
+    "cells": 502
+   }
+  },
+  "2024_2025": {
+   "pitchers": 169,
+   "pairs": 254780,
+   "cross_season_pair_mismatch_pct": {
+    "type_sc": [
+     1.27,
+     0.89,
+     1.73
+    ],
+    "A1": [
+     5.88,
+     4.67,
+     7.16
+    ],
+    "A2": [
+     8.05,
+     4.69,
+     11.95
+    ],
+    "l1_tr": [
+     0.67,
+     0.2,
+     1.42
+    ]
+   },
+   "flip_pairs_pct": {
+    "type_sc": {
+     "FF/SI": 53.0,
+     "SL/ST": 12.3,
+     "CU/SL": 11.9,
+     "FC/FF": 8.9,
+     "FC/SL": 7.8,
+     "CU/ST": 1.8
+    },
+    "A1": {
+     "FC/SL": 34.0,
+     "FF/SI": 22.2,
+     "CU/SL": 17.1,
+     "SL/ST": 9.3,
+     "FC/FF": 7.0,
+     "CH/FS": 4.0
+    },
+    "A2": {
+     "FF/SI": 39.3,
+     "CU/SL": 18.2,
+     "FC/SL": 16.9,
+     "SL/ST": 11.3,
+     "FC/FF": 6.1,
+     "CH/FS": 5.8
+    },
+    "l1_tr": {
+     "BB/FB": 82.9,
+     "BB/unassigned": 6.4,
+     "CH/FB": 5.4,
+     "CH/unassigned": 3.3,
+     "BB/CH": 1.7,
+     "FB/unassigned": 0.3
+    }
+   },
+   "share_of_flips_from_top_10pct_pitchers": {
+    "type_sc": 60.2,
+    "A1": 45.6,
+    "A2": 74.5,
+    "l1_tr": 93.6
+   },
+   "A2_minus_statcast_pt": [
+    6.78,
+    3.49,
+    10.74
+   ],
+   "arsenal_identical_pct": {
+    "type_sc": 54.4,
+    "A1": 30.8,
+    "A2": 33.1,
+    "l1_tr": 78.1
+   },
+   "same_majority_name_per_statcast_type_pct": {
+    "A1": 91.6,
+    "A2": 85.1,
+    "cells": 525
+   }
+  }
+ },
+ "level2_vs_statcast_holdout_2025": {
+  "BB": {
+   "pitcher_classes": 163,
+   "topo_split_pct": 71.8,
+   "statcast_multi_type_pct": 71.2,
+   "split_agreement_pct": 93.3
+  },
+  "CH": {
+   "pitcher_classes": 105,
+   "topo_split_pct": 11.4,
+   "statcast_multi_type_pct": 9.5,
+   "split_agreement_pct": 84.8
+  },
+  "FB": {
+   "pitcher_classes": 163,
+   "topo_split_pct": 64.4,
+   "statcast_multi_type_pct": 59.5,
+   "split_agreement_pct": 82.8
+  }
+ },
+ "phase_c_xwoba_model_r2": 0.9933,
+ "phase_c": {
+  "BB": {
+   "whiff_per_swing": {
+    "n_train": 188071,
+    "n_test": 32687,
+    "shape_only_loss": 0.605154,
+    "plus_statcast_name": {
+     "diff_b_minus_a": [
+      -0.00022,
+      -0.00097,
+      0.000612
+     ],
+     "rel_pct": -0.036
+    },
+    "plus_A1_name": {
+     "diff_b_minus_a": [
+      -0.000468,
+      -0.001161,
+      0.000174
+     ],
+     "rel_pct": -0.077
+    },
+    "plus_A2_name": {
+     "diff_b_minus_a": [
+      -0.000423,
+      -0.001131,
+      0.000236
+     ],
+     "rel_pct": -0.07
+    }
+   },
+   "called_strike_per_take": {
+    "n_train": 210777,
+    "n_test": 37300,
+    "shape_only_loss": 0.541271,
+    "plus_statcast_name": {
+     "diff_b_minus_a": [
+      2.4e-05,
+      -0.000394,
+      0.000486
+     ],
+     "rel_pct": 0.004
+    },
+    "plus_A1_name": {
+     "diff_b_minus_a": [
+      -0.000141,
+      -0.00048,
+      0.000228
+     ],
+     "rel_pct": -0.026
+    },
+    "plus_A2_name": {
+     "diff_b_minus_a": [
+      -5.4e-05,
+      -0.000342,
+      0.000258
+     ],
+     "rel_pct": -0.01
+    }
+   },
+   "xwoba_on_contact": {
+    "n_train": 65737,
+    "n_test": 11671,
+    "shape_only_loss": 0.153407,
+    "plus_statcast_name": {
+     "diff_b_minus_a": [
+      -7.9e-05,
+      -0.000319,
+      0.000191
+     ],
+     "rel_pct": -0.052
+    },
+    "plus_A1_name": {
+     "diff_b_minus_a": [
+      0.000174,
+      -0.000128,
+      0.000468
+     ],
+     "rel_pct": 0.113
+    },
+    "plus_A2_name": {
+     "diff_b_minus_a": [
+      5.5e-05,
+      -0.000234,
+      0.00032
+     ],
+     "rel_pct": 0.036
+    }
+   }
+  },
+  "FB": {
+   "whiff_per_swing": {
+    "n_train": 248992,
+    "n_test": 40858,
+    "shape_only_loss": 0.475086,
+    "plus_statcast_name": {
+     "diff_b_minus_a": [
+      -0.000295,
+      -0.000891,
+      0.000246
+     ],
+     "rel_pct": -0.062
+    },
+    "plus_A1_name": {
+     "diff_b_minus_a": [
+      -0.000194,
+      -0.000771,
+      0.000331
+     ],
+     "rel_pct": -0.041
+    },
+    "plus_A2_name": {
+     "diff_b_minus_a": [
+      -0.000283,
+      -0.000687,
+      9.5e-05
+     ],
+     "rel_pct": -0.059
+    }
+   },
+   "called_strike_per_take": {
+    "n_train": 270479,
+    "n_test": 45750,
+    "shape_only_loss": 0.60961,
+    "plus_statcast_name": {
+     "diff_b_minus_a": [
+      -0.000572,
+      -0.001089,
+      -0.000113
+     ],
+     "rel_pct": -0.094
+    },
+    "plus_A1_name": {
+     "diff_b_minus_a": [
+      -0.000435,
+      -0.000817,
+      -0.00011
+     ],
+     "rel_pct": -0.071
+    },
+    "plus_A2_name": {
+     "diff_b_minus_a": [
+      -0.000487,
+      -0.000921,
+      -8.8e-05
+     ],
+     "rel_pct": -0.08
+    }
+   },
+   "xwoba_on_contact": {
+    "n_train": 92134,
+    "n_test": 15295,
+    "shape_only_loss": 0.160826,
+    "plus_statcast_name": {
+     "diff_b_minus_a": [
+      -5.9e-05,
+      -0.000274,
+      0.000166
+     ],
+     "rel_pct": -0.037
+    },
+    "plus_A1_name": {
+     "diff_b_minus_a": [
+      -9.4e-05,
+      -0.00031,
+      0.000134
+     ],
+     "rel_pct": -0.059
+    },
+    "plus_A2_name": {
+     "diff_b_minus_a": [
+      0.000133,
+      -6.9e-05,
+      0.000327
+     ],
+     "rel_pct": 0.082
+    }
+   }
+  }
+ },
+ "seasons_2021_2022": {
+  "rows_by_season": {
+   "2021": 709484,
+   "2022": 708105
+  },
+  "peaks_own_landscape": {
+   "FB": [
+    7.5,
+    17.5,
+    -0.7
+   ],
+   "BB": [
+    -4.5,
+    2.5,
+    -9.1
+   ],
+   "CH": [
+    15.5,
+    6.5,
+    -8.5
+   ]
+  },
+  "islands": [],
+  "agreement_pct_own_landscape": [
+   97.93,
+   97.6,
+   98.21
+  ],
+  "class_share_pct_own_landscape": {
+   "FB": 50.83,
+   "BB": 36.12,
+   "CH": 12.3,
+   "unassigned": 0.76
+  },
+  "agreement_pct_landscape_2023_25": [
+   97.38,
+   96.85,
+   97.8
+  ],
+  "class_share_pct_landscape_2023_25": {
+   "FB": 50.28,
+   "BB": 36.38,
+   "CH": 12.25,
+   "unassigned": 1.1
+  },
+  "park_test": {
+   "pitcher_seasons": 1570,
+   "pairs": {
+    "same_game": 156106,
+    "same_park_other_game": 473514,
+    "other_park": 1275714
+   },
+   "mismatch_pct": {
+    "pitch_type": {
+     "same_game": [
+      0.54,
+      0.45,
+      0.65
+     ],
+     "same_park_other_game": [
+      0.99,
+      0.82,
+      1.18
+     ],
+     "other_park": [
+      1.13,
+      0.97,
+      1.31
+     ],
+     "other_park_minus_same_game": [
+      0.59,
+      0.47,
+      0.72
+     ]
+    },
+    "sc_collapsed": {
+     "same_game": [
+      0.07,
+      0.05,
+      0.09
+     ],
+     "same_park_other_game": [
+      0.14,
+      0.09,
+      0.19
+     ],
+     "other_park": [
+      0.13,
+      0.1,
+      0.16
+     ],
+     "other_park_minus_same_game": [
+      0.06,
+      0.03,
+      0.09
+     ]
+    },
+    "l1": {
+     "same_game": [
+      0.63,
+      0.52,
+      0.74
+     ],
+     "same_park_other_game": [
+      0.71,
+      0.47,
+      0.98
+     ],
+     "other_park": [
+      0.61,
+      0.44,
+      0.81
+     ],
+     "other_park_minus_same_game": [
+      -0.02,
+      -0.14,
+      0.1
+     ]
+    }
+   }
+  }
+ }
+}

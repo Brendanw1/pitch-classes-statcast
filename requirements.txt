@@ -1,0 +1,10 @@
+# versions used for the published results (Python 3.12)
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.0
+numba==0.67.0
+lightgbm==4.7.0
+scikit-learn==1.9.0
+matplotlib==3.11.1
+pyarrow==25.0.1
+pytest==9.1.1

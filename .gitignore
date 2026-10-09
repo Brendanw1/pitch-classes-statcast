@@ -1,0 +1,7 @@
+data/
+*.parquet
+*.csv.gz
+__pycache__/
+.pytest_cache/
+*.log
+.DS_Store

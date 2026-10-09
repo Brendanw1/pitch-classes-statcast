@@ -1,0 +1,26 @@
+quantity,estimate,ci_low,ci_high
+"Level 1 class agreement vs Statcast, 2023-25 (%)",97.61,97.28,98.02
+"Park test Statcast pitch_type, same game (% pairs differing)",0.55,0.44,0.67
+"Park test Statcast pitch_type, other park (% pairs differing)",0.97,0.8,1.18
+"Park test Level 1 class, same game (% pairs differing)",0.56,0.46,0.67
+"Park test Level 1 class, other park (% pairs differing)",0.52,0.39,0.69
+"A2 hybrid accuracy, held-out pitchers 2025 (%)",86.84,84.4,89.25
+A1 booster accuracy (%),85.16,83.18,86.92
+A2 macro-F1,0.8265,0.7883,0.8586
+A1 macro-F1,0.7994,0.7707,0.8232
+A2 - A1 accuracy (pt),1.68,-0.1,3.57
+"Park test holdout 2025, Statcast type, other park (%)",0.73,0.45,1.1
+"Park test holdout 2025, A1, other park (%)",4.93,4.04,6.06
+"Park test holdout 2025, A2, other park (%)",0.16,0.1,0.24
+A1 accuracy at 95% coverage (%),87.01,85.07,88.82
+A1 accuracy at 90% coverage (%),88.77,86.97,90.45
+A1 accuracy at 80% coverage (%),91.78,90.2,93.27
+A2 accuracy at 95% coverage (%),89.09,86.65,91.26
+A2 accuracy at 90% coverage (%),91.15,88.96,93.34
+A2 accuracy at 80% coverage (%),93.54,91.63,95.34
+"Cross-season pair mismatch 2023->2024, Statcast (%)",1.32,0.88,1.85
+"Cross-season pair mismatch 2023->2024, A2 (%)",8.07,4.35,13.19
+"Cross-season pair mismatch 2023->2024, A1 (%)",7.2,5.68,8.96
+"Cross-season pair mismatch 2024->2025, Statcast (%)",1.27,0.89,1.73
+"Cross-season pair mismatch 2024->2025, A2 (%)",8.05,4.69,11.95
+"Cross-season pair mismatch 2024->2025, A1 (%)",5.88,4.67,7.16
